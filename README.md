@@ -1,5 +1,3 @@
-# Extended Kalman Filter Project Starter Code
-
 [//]: # (Image References) 
 [ukf_tracking]: ./ukf_tracking.png
 [NIS]: ./postprocess_NIS/NIS.png
@@ -53,6 +51,8 @@ noise variances (9 m^s/s^4 for the linear acceleration and 1 rad^2/s^4 for the
 yaw rate acceleration):
 
 ![NIS values][NIS]
+
+The NIS statistic can be used to troubleshoot the process noise as follows:
 
 If much more than 5% of the NIS values computed from measurements exceed the threshold,
 it means that our measurements are actually being drawn from a distribution with
