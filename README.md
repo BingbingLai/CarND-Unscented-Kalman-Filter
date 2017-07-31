@@ -57,7 +57,7 @@ yaw rate acceleration):
 
 Maybe a few more NIS samples should exceed the threshold (particularly for 
 laser measurements) but I'm satisfied for now.  If I wanted to fine tune forther,
-the NIS statistic can be used to adjust the process noise as follows:
+the NIS statistic could be used to adjust the process noise as follows:
 
 If much more than 5% of the NIS values computed from measurements exceed the threshold,
 it means that our measurements are actually being drawn from a distribution with
